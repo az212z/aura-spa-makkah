@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مركز أورا للتجميل والسبا النسائي · مكة المكرمة</title>
+<meta name="description" content="مركز أورا النسائي في مكة (ممشى التنعيم): عناية البشرة، مساج وعناية الجسم، حمام مغربي، أظافر، وتصفيف الشعر. أجواء راقية وخصوصية تامة. تقييم 4.5 على خرائط قوقل.">
+<meta name="theme-color" content="#FBF5EF">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:title" content="مركز أورا للتجميل والسبا النسائي · مكة المكرمة">
+<meta property="og:description" content="عناية البشرة، مساج، حمام مغربي، أظافر، وشعر — تجربة سبا نسائية راقية في مكة المكرمة.">
+<meta property="og:url" content="https://az212z.github.io/aura-spa-makkah/" />
+  <meta property="og:image" content="https://az212z.github.io/aura-spa-makkah/assets/img/aur-1911.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="مركز أورا للتجميل والسبا النسائي · مكة">
+<meta name="twitter:description" content="تجربة سبا نسائية راقية في مكة المكرمة — عناية، مساج، حمام مغربي، أظافر، وشعر.">
+<meta name="twitter:image" content="https://az212z.github.io/aura-spa-makkah/assets/img/aur-1911.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Reem+Kufi:wght@500;600&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["BeautySalon","DaySpa"],
+  "name": "مركز أورا للتجميل والسبا النسائي",
+  "description": "مركز نسائي للتجميل والسبا في مكة المكرمة: عناية البشرة، مساج وعناية الجسم، حمام مغربي، أظافر، وتصفيف الشعر.",
+  "image": "https://az212z.github.io/aura-spa-makkah/assets/img/aur-1911.jpg",
+  "telephone": "+966543600508",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "مكة المكرمة",
+    "addressRegion": "منطقة مكة المكرمة",
+    "addressCountry": "SA",
+    "streetAddress": "ممشى التنعيم"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "351",
+    "bestRating": "5"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"],
+    "opens": "11:00",
+    "closes": "23:00"
+  }],
+  "url": "https://az212z.github.io/aura-spa-makkah/",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Aura%20spa%20Makkah"
+}
+</script>
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="#hero" class="brand" aria-label="مركز أورا — الصفحة الرئيسية">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B76E79"/><stop offset="1" stop-color="#C8A06A"/></linearGradient></defs>
+        <circle cx="32" cy="32" r="20" fill="none" stroke="url(#bg)" stroke-width="3" opacity="0.5"/>
+        <path d="M32 16 C24 24 24 40 32 48 C40 40 40 24 32 16 Z" fill="url(#bg)"/>
+        <circle cx="32" cy="32" r="5" fill="#4A2E33"/>
+      </svg>
+      <span>
+        <span class="brand-name">أورا</span><br>
+        <span class="brand-sub">تجميل وسبا نسائي</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="التنقل الرئيسي">
+      <a href="#services">الخدمات</a>
+      <a href="#why">لماذا أورا</a>
+      <a href="#gallery">المركز</a>
+      <a href="#book">الحجز</a>
+      <a href="#location">الموقع</a>
+    </nav>
+
+    <a href="#book" class="btn btn-primary nav-cta">احجز موعدك</a>
+
+    <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===== Mobile menu ===== -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="القائمة">
+  <div class="mobile-menu-top">
+    <span class="brand-name">أورا</span>
+    <button class="menu-close" id="menuClose" aria-label="إغلاق القائمة">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav aria-label="قائمة الجوال">
+    <a href="#services">الخدمات</a>
+    <a href="#why">لماذا أورا</a>
+    <a href="#gallery">المركز</a>
+    <a href="#book">الحجز</a>
+    <a href="#location">الموقع</a>
+  </nav>
+  <a href="#book" class="btn btn-primary btn-lg">احجز موعدك</a>
+</div>
+
+<main>
+<!-- ===== Hero ===== -->
+<section class="hero" id="hero">
+  <span class="aura aura-1" aria-hidden="true"></span>
+  <span class="aura aura-2" aria-hidden="true"></span>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z"/></svg>
+        مركز نسائي · مكة المكرمة
+      </span>
+      <h1>إشراقتك تبدأ من <span class="glow">أورا</span><br>وجهة العناية والاسترخاء</h1>
+      <p class="hero-sub">مركز نسائي متكامل في ممشى التنعيم بمكة. عناية بالبشرة، مساج وحمام مغربي، أظافر، وتصفيف شعر — في أجواء هادئة وخصوصية تامة.</p>
+      <div class="hero-cta">
+        <a href="https://wa.me/966543600508?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D9%8A%20%D9%85%D8%B1%D9%83%D8%B2%20%D8%A3%D9%88%D8%B1%D8%A7" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.6 20.013c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.965-.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          احجز عبر واتساب
+        </a>
+        <a href="#services" class="btn btn-ghost btn-lg">تصفّح الخدمات</a>
+      </div>
+    </div>
+
+    <div class="hero-media">
+      <img src="assets/img/aur-1911.jpg" alt="ركن العناية بالأقدام في مركز أورا بكراسٍ فاخرة وإضاءة دافئة" width="643" height="1147">
+      <div class="hero-badge">
+        <div>
+          <div class="rating">4.5</div>
+          <div class="stars" aria-hidden="true">★★★★★</div>
+        </div>
+        <div class="count">تقييم 4.5 على خرائط قوقل<br>(351 تقييم)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Trust ===== -->
+<section class="trust" aria-label="مزايا المركز">
+  <div class="container trust-row">
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg> تقييم 4.5 على خرائط قوقل (351)</span>
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> مركز نسائي · خصوصية تامة</span>
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2v20M2 12h20"/></svg> خدمات عناية متكاملة</span>
+    <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg> ممشى التنعيم · مكة</span>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">خدماتنا</span>
+      <h2>كل ما تحتاجه العناية في مكان واحد</h2>
+      <p>باقة خدمات نسائية تجمع بين العناية والراحة، يقدّمها فريق متخصص بأدوات نظيفة ومعقّمة وأجواء تليق بك.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service reveal">
+        <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 10a3 3 0 016 0M9 14h6"/></svg></div>
+        <h3>عناية البشرة</h3>
+        <p>تنظيف عميق، تقشير، وجلسات نضارة وترطيب تعيد إشراقة البشرة وتمنحها مظهرًا صحيًا.</p>
+        <span class="tag">الأسعار حسب الطلب</span>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 14c2-4 6-6 8-6s6 2 8 6"/><path d="M6 14c0 3 3 5 6 5s6-2 6-5"/></svg></div>
+        <h3>مساج وعناية الجسم</h3>
+        <p>جلسات مساج للاسترخاء وتخفيف التوتر، مع عناية متكاملة بالجسم في أجواء هادئة.</p>
+        <span class="tag">الأسعار حسب الطلب</span>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 21c0-4 2-7 5-7s5 3 5 7"/><path d="M12 14V3M9 6l3-3 3 3"/></svg></div>
+        <h3>حمام مغربي</h3>
+        <p>تقشير وتنظيف عميق على الطريقة المغربية الأصيلة، لبشرة ناعمة ومنتعشة.</p>
+        <span class="tag">الأسعار حسب الطلب</span>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20l8-8M12 12l2-6 4 4-6 2"/><circle cx="6" cy="18" r="2"/></svg></div>
+        <h3>العناية بالأظافر</h3>
+        <p>مانيكير وباديكير وتنسيق متكامل للأظافر بأدوات معقّمة ولمسة احترافية.</p>
+        <span class="tag">الأسعار حسب الطلب</span>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 5-4 8-7 11-3-3-7-6-7-11 0-4 3-7 7-7z"/><path d="M9 8c1 2 3 3 6 3"/></svg></div>
+        <h3>تصفيف الشعر</h3>
+        <p>قص، تصفيف، وعناية بالشعر تناسب كل مناسبة، مع استشارة لاختيار الأنسب لك من حيث الإطلالة.</p>
+        <span class="tag">الأسعار حسب الطلب</span>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.5 5.5L20 10l-5.5 2.5L12 18l-2.5-5.5L4 10l5.5-2.5z"/></svg></div>
+        <h3>باقات وعناية كاملة</h3>
+        <p>دمج أكثر من خدمة في جلسة واحدة لتجربة عناية شاملة. نرتّب لك الباقة المناسبة عند التواصل.</p>
+        <span class="tag">الأسعار حسب الطلب</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why ===== -->
+<section class="section why" id="why">
+  <div class="container why-grid">
+    <div class="why-media reveal">
+      <img src="assets/img/aur-22165.jpg" alt="صالة استراحة دافئة داخل مركز أورا بإضاءة هادئة وأجواء مريحة" width="1280" height="853" loading="lazy" decoding="async">
+    </div>
+    <div>
+      <div class="section-head reveal" style="margin-bottom:var(--s-6)">
+        <span class="kicker">لماذا أورا</span>
+        <h2>تجربة مصمّمة لراحتك</h2>
+      </div>
+      <div class="why-list">
+        <div class="why-item reveal">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+          <div><h3>خصوصية نسائية تامة</h3><p>مركز مخصّص للسيدات بالكامل، بأجواء آمنة ومريحة تحفظ خصوصيتك من أول لحظة.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <div><h3>نظافة وتعقيم</h3><p>أدوات معقّمة وبيئة نظيفة في كل قسم، لأن سلامتك تأتي أولًا.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg></span>
+          <div><h3>تقييم 4.5 على قوقل</h3><p>ثقة أكثر من 351 زائرة سبقتك — تجربة حازت على رضا حقيقي.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div><h3>موقع سهل الوصول</h3><p>في ممشى التنعيم بمكة المكرمة، بمكان واضح ومريح للوصول.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Gallery ===== -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">من داخل المركز</span>
+      <h2>أجواء أورا</h2>
+      <p>لمحة من المساحات التي صُمّمت لتمنحك الهدوء والإحساس بالدلال.</p>
+    </div>
+    <div class="gallery-grid">
+      <button class="gphoto wide reveal" data-full="assets/img/aur-1911.jpg" aria-label="تكبير صورة ركن العناية بالأقدام">
+        <img src="assets/img/aur-1911.jpg" alt="ركن العناية بالأقدام بكراسٍ مريحة وإضاءة دافئة في مركز أورا" loading="lazy" decoding="async" width="643" height="1147">
+      </button>
+      <div class="gtile t1 reveal"><span class="gtile-txt">استرخاء وهدوء</span></div>
+      <div class="gtile t2 reveal"><span class="gtile-txt">عناية تليق بك</span></div>
+      <button class="gphoto wide reveal" data-full="assets/img/aur-22165.jpg" aria-label="تكبير صورة صالة الاستراحة">
+        <img src="assets/img/aur-22165.jpg" alt="صالة استراحة دافئة داخل مركز أورا بأجواء مريحة" loading="lazy" decoding="async" width="1280" height="853">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Booking form ===== -->
+<section class="section book" id="book">
+  <div class="container book-grid">
+    <div class="book-aside reveal">
+      <span class="kicker" style="color:var(--gold);font-weight:700">احجز موعدك</span>
+      <h2 style="margin-top:var(--s-2)">جاهزة للإشراق؟</h2>
+      <p>اترك بياناتك وسنجهّز رسالة واتساب جاهزة لتأكيد موعدك مباشرة مع المركز. اختر الخدمة والوقت المناسب لك.</p>
+      <div class="note">
+        هذا النموذج تجريبي للعرض فقط ولا يرتبط بنظام حجز فعلي. عند الإرسال تُفتح محادثة واتساب مع المركز بالبيانات التي أدخلتها، وتُحفظ نسخة محليًا في متصفحك.
+      </div>
+    </div>
+
+    <form class="form reveal" id="bookForm" novalidate>
+      <div class="field">
+        <label for="name">الاسم <span class="req" aria-hidden="true">*</span></label>
+        <input type="text" id="name" name="name" autocomplete="name" required aria-required="true">
+        <span class="err" id="err-name">من فضلك اكتب الاسم.</span>
+      </div>
+      <div class="field">
+        <label for="phone">رقم الجوال <span class="req" aria-hidden="true">*</span></label>
+        <input type="tel" id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="05XXXXXXXX" required aria-required="true">
+        <span class="err" id="err-phone">اكتب رقم جوال صحيح (10 أرقام).</span>
+      </div>
+      <div class="field">
+        <label for="service">الخدمة <span class="req" aria-hidden="true">*</span></label>
+        <select id="service" name="service" required aria-required="true">
+          <option value="">اختر الخدمة</option>
+          <option>عناية البشرة</option>
+          <option>مساج وعناية الجسم</option>
+          <option>حمام مغربي</option>
+          <option>العناية بالأظافر</option>
+          <option>تصفيف الشعر</option>
+          <option>باقة عناية كاملة</option>
+        </select>
+        <span class="err" id="err-service">اختر الخدمة المطلوبة.</span>
+      </div>
+      <div class="field">
+        <label for="date">التاريخ المفضّل</label>
+        <input type="date" id="date" name="date">
+      </div>
+      <div class="field">
+        <label for="notes">ملاحظات</label>
+        <textarea id="notes" name="notes" placeholder="أي تفاصيل تساعدنا على تجهيز موعدك"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.6 20.013c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.965-.207z"/></svg>
+        إرسال عبر واتساب
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== Location ===== -->
+<section class="section" id="location">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">الموقع وساعات العمل</span>
+      <h2>زورنا في مكة المكرمة</h2>
+    </div>
+    <div class="loc-grid">
+      <div class="loc-card reveal">
+        <h3>أورا · مركز نسائي</h3>
+        <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg><div><div class="k">العنوان</div><div class="v">ممشى التنعيم · مكة المكرمة</div></div></div>
+        <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><div class="k">ساعات العمل</div><div class="v"><span class="hours-tag">يوميًا</span> · 11 صباحًا حتى 11 مساءً</div></div></div>
+        <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><div><div class="k">الهاتف</div><div class="v"><a href="tel:0543600508">0543600508</a></div></div></div>
+        <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/></svg><div><div class="k">على الخريطة</div><div class="v"><a href="https://www.google.com/maps/search/?api=1&query=Aura%20spa%20Makkah" target="_blank" rel="noopener">افتح في خرائط قوقل</a></div></div></div>
+      </div>
+      <div class="loc-card reveal" style="display:flex;flex-direction:column;justify-content:center;gap:var(--s-4)">
+        <p style="color:var(--mauve-soft)">للحجز أو الاستفسار، تواصل معنا مباشرة بالطريقة الأنسب لك.</p>
+        <a href="https://wa.me/966543600508" class="btn btn-primary btn-lg" target="_blank" rel="noopener">واتساب 0543600508</a>
+        <a href="tel:0543600508" class="btn btn-ghost btn-lg">اتصال مباشر</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Aura%20spa%20Makkah" class="btn btn-ghost btn-lg" target="_blank" rel="noopener">الاتجاهات على الخريطة</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Final CTA ===== -->
+<section class="section final">
+  <span class="aura aura-3" aria-hidden="true"></span>
+  <div class="container final-inner reveal">
+    <h2>وقتك للعناية بنفسك حان</h2>
+    <p>احجز موعدك في مركز أورا واستمتع بتجربة عناية نسائية راقية في قلب مكة المكرمة.</p>
+    <div class="hero-cta">
+      <a href="https://wa.me/966543600508?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF" class="btn btn-primary btn-lg" target="_blank" rel="noopener">احجز عبر واتساب</a>
+      <a href="#services" class="btn btn-ghost btn-lg">تعرّف على الخدمات</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-name">أورا</span>
+      <p>مركز نسائي للتجميل والسبا في مكة المكرمة — عناية، استرخاء، وإشراقة تليق بك.</p>
+    </div>
+    <div class="footer">
+      <h4>روابط سريعة</h4>
+      <div class="footer-links">
+        <a href="#services">الخدمات</a>
+        <a href="#why">لماذا أورا</a>
+        <a href="#gallery">المركز</a>
+        <a href="#book">الحجز</a>
+        <a href="#location">الموقع</a>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>تواصل</h4>
+      <div class="footer-links">
+        <a href="https://wa.me/966543600508" target="_blank" rel="noopener">واتساب: 0543600508</a>
+        <a href="tel:0543600508">اتصال: 0543600508</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Aura%20spa%20Makkah" target="_blank" rel="noopener">الموقع على الخريطة</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">© 2026 مركز أورا للتجميل والسبا النسائي · مكة المكرمة. جميع الحقوق محفوظة.</div>
+</footer>
+
+<!-- ===== Floating FABs ===== -->
+<div class="fabs">
+  <a class="fab fab-wa" href="https://wa.me/966543600508" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.6 20.013c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.523 5.26l-.999 3.648 3.965-.207z"/></svg>
+  </a>
+  <a class="fab fab-call" href="tel:0543600508" aria-label="اتصال هاتفي">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+  <a class="fab fab-map" href="https://www.google.com/maps/search/?api=1&query=Aura%20spa%20Makkah" target="_blank" rel="noopener" aria-label="الموقع على الخريطة">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+  </a>
+</div>
+
+<!-- ===== Lightbox ===== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة">
+  <button class="lightbox-close" id="lightboxClose" aria-label="إغلاق الصورة">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <img id="lightboxImg" src="" alt="صورة مكبّرة من داخل مركز أورا">
+</div>
+
+<!-- ===== Toast ===== -->
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+  <div><div class="t-title">تم تجهيز طلبك</div><div class="t-body">سيتم فتح واتساب لإتمام الحجز.</div></div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
